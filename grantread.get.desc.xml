@@ -1,0 +1,7 @@
+<webscript>
+	<shortname>Grant Read</shortname>
+	<description>Grant read permission on passed in noderef for a passed in user</description>
+	<url>/grantread?username={userNameArgument}&amp;noderef={nodeRefArgument}</url>
+	<authentication>guest</authentication>
+    <transaction>none</transaction>
+</webscript>
